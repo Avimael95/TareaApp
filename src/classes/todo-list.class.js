@@ -29,7 +29,6 @@ export class TodoList{
     }
     
     eliminarCompletado(){
-        console.log('estas dentron de la funcion de completados');
         this.todos = this.todos.filter(todo=>!todo.completado);
         this.guardarLocalStore();
     }

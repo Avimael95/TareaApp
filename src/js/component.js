@@ -33,7 +33,6 @@ txtTodo.addEventListener('keyup',(e)=>{
    if(e.keyCode===13 && txtTodo.value.length > 0){
        const newTodo = new Todo(txtTodo.value);
        objList.nuevoTodo(newTodo);
-       console.log(objList)
        crearTodoHtml(newTodo);
        txtTodo.value = '';
    } 
@@ -64,7 +63,6 @@ btnDelete.addEventListener('click',()=>{
             todolist.removeChild(elemento);
         }
     }
-    console.log(objList);
     
 });
 
