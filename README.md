@@ -1,4 +1,4 @@
-# Demo la aplicación
+# Demo de la aplicación
 https://avimael95.github.io/TareaApp/#/
 
 # webpack starter
